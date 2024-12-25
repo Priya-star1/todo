@@ -1,0 +1,96 @@
+body {
+  font-family: 'Poppins', sans-serif;
+    background: #bf6363;
+      margin: 0;
+        display: flex;
+          justify-content: center;
+            align-items: center;
+              height: 100vh;
+                color: #fff;
+                }
+
+                .container {
+                  background: #fff;
+                    color: #333;
+                      border-radius: 12px;
+                        padding: 30px 20px;
+                          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+                            width: 400px;
+                              text-align: center;
+                              }
+
+                              h1 {
+                                margin-bottom: 20px;
+                                  font-size: 1.8rem;
+                                    color: black;
+                                    }
+
+                                    .input-container {
+                                      display: flex;
+                                        gap: 10px;
+                                          margin-bottom: 20px;
+                                          }
+
+                                          #task-input {
+                                            flex: 1;
+                                              padding: 12px;
+                                                border: 2px solid #ddd;
+                                                  border-radius: 8px;
+                                                    font-size: 1rem;
+                                                    }
+
+                                                    #add-task-btn {
+                                                      background: black;
+                                                        color: #fff;
+                                                          border: none;
+                                                            border-radius: 8px;
+                                                              padding: 12px 20px;
+                                                                font-size: 1rem;
+                                                                  cursor: pointer;
+                                                                    transition: background 0.3s ease;
+                                                                    }
+
+                                                                    #add-task-btn:hover {
+                                                                      background: #2575fc;
+                                                                      }
+
+                                                                      #task-list {
+                                                                        list-style: none;
+                                                                          padding: 0;
+                                                                          }
+
+                                                                          .task-item {
+                                                                            background: #f9f9f9;
+                                                                              border-radius: 8px;
+                                                                                padding: 12px 16px;
+                                                                                  display: flex;
+                                                                                    justify-content: space-between;
+                                                                                      align-items: center;
+                                                                                        margin-bottom: 10px;
+                                                                                          transition: transform 0.2s;
+                                                                                          }
+
+                                                                                          .task-item:hover {
+                                                                                            transform: scale(1.03);
+                                                                                              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                                                                                              }
+
+                                                                                              .complete {
+                                                                                                text-decoration: line-through;
+                                                                                                  color: gray;
+                                                                                                  }
+
+                                                                                                  .delete-btn {
+                                                                                                    background: #ff5e57;
+                                                                                                      color: #fff;
+                                                                                                        border: none;
+                                                                                                          border-radius: 8px;
+                                                                                                            padding: 8px 12px;
+                                                                                                              font-size: 0.9rem;
+                                                                                                                cursor: pointer;
+                                                                                                                  transition: background 0.3s ease;
+                                                                                                                  }
+
+                                                                                                                  .delete-btn:hover {
+                                                                                                                    background: #ff3b30;
+                                                                                                                    }
